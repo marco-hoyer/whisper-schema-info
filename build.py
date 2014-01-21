@@ -24,6 +24,8 @@ def initialize(project):
 
     project.depends_on("argparse")
 
+    project.set_property('dir_dist_scripts', 'scripts')
+
     project.set_property('distutils_classifiers', [
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
