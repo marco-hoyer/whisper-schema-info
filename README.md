@@ -4,7 +4,7 @@ This utility prints storage-schema and aggregation settings matching a given met
 
 ## Installation:
 
-This is a bybuilder project. You will need to install pybuilder by:
+This is a pybuilder project. You will need to install pybuilder by:
 ```bash
 pip install pybuilder
 ```
@@ -27,7 +27,7 @@ pyb publish
 
 ## usage
 
-There is a default configuration assuming the following pathes:
+There is a default configuration assuming the following paths:
 - CARBON_CONF_DIR: /etc/carbon
 - CARBON_LIB_DIR: /opt/graphite/lib
 
